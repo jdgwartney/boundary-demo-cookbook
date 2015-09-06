@@ -1,2 +1,2 @@
-# pulse-demo-cookbook
+# Boundary Demo Cookbook
 Demo Cookbook
