@@ -20,9 +20,11 @@
 #
 
 # your boundary premium or enterprise token
-default['boundary_meter']['token'] = ''
+default['boundary_meter']['token'] = 'api.e7732a46d9-8593'
+default['boundary_meter']['domain_name'] = '.example.com'
 
-default['boundary_meter']['hostname'] = node['fqdn']
+default['boundary_meter']['hostname'] = node['hostname'] + default['boundary_meter']['domain_name']
+
 default['boundary_meter']['tags'] = [node.chef_environment]
 
 # discover tags from various providers that publish node attributes
