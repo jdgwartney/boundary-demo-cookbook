@@ -21,7 +21,7 @@
 
 # your boundary premium or enterprise token
 default['boundary_meter']['token'] = ''
-default['boundary_meter']['domain_name'] = '.truesightpulse.com'
+default['boundary_meter']['domain_name'] = '.example.com'
 
 default['boundary_meter']['hostname'] = node['hostname'] + default['boundary_meter']['domain_name']
 
