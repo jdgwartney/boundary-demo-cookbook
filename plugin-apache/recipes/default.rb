@@ -1,3 +1,7 @@
+service 'httpd' do
+  action :enable
+end
+
 cookbook_file "/etc/httpd/mods-available/status.conf" do
   source "status.conf"
   owner 'root'
